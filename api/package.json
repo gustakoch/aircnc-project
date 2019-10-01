@@ -1,0 +1,23 @@
+{
+  "name": "backend-aircnc",
+  "version": "1.0.0",
+  "description": "OmniStack 9.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon source/server.js"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Gustavo Koch",
+  "email": "gustavok@outlook.com.br",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
